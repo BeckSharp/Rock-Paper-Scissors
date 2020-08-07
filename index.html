@@ -14,6 +14,42 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <h1>Rock, Paper, Scissors</h1>
+    <div class="results">
+        <p>You :&nbsp</p>
+        <span class="result-score" data-user-score>0</span>
+        <p>&nbsp-&nbsp</p>
+        <span class="result-score" data-website-score>0</span>
+        <p>&nbsp: Website</p>
+    </div>
+
+    <div class="boxes">
+        <div class="box" id="user-box">
+            <div class="box-header">
+                You chose:
+            </div>
+            <div class="box-body">
+                <span class="last-game-outcome" data-user-last></span>
+            </div>
+        </div>
+        <div class="box-gap">         
+        </div>
+        <div class="box" id="website-box">
+            <div class="box-header">
+                Website chose:
+            </div>
+            <div class="box-body">
+                <span class="last-game-outcome" data-website-last></span>
+            </div>
+        </div>
+    </div>
+
+    <h1>Select an option</h1>
+    <div class="selections">
+        <button class="selection" data-selection="rock">✊</button>
+        <button class="selection" data-selection="paper">✋</button>
+        <button class="selection" data-selection="scissors">✌</button>
+    </div>
 
     <!-- Scripts -->
     <script src="js/scripts.js"></script>
