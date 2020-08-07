@@ -7,3 +7,69 @@ h1 {
     text-align: center;
     background-color: #302f29;
 }
+
+.selections {
+    display: flex;
+    justify-content: center;
+}
+
+.selection {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 4rem;
+    transition: 50ms;
+}
+
+.selection:hover {
+    transform: scale(1.2);
+}
+
+.selection:active {
+    transform: scale(0.8);
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.box-gap {
+    height: 2vh;
+    width: 4vw;
+}
+
+.box {
+    height: 23vh;
+    width: 42vw;
+    max-height: 300px;
+    max-width: 300px;
+    background-color: #acaeb0;
+    border-style: solid;
+    border-color: #b5b7ba;
+}
+
+.box-header {
+    display: grid;
+    place-items: center;
+    height: 30%;
+    width: 100%;
+    background-color: #302f29;
+    font-size: 130%;
+}
+
+.box-body {
+    display: grid;
+    place-items: center;
+    height: 70%;
+    width: 100%;
+    font-size: 400%;
+}
