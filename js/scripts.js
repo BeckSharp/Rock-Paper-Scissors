@@ -1,3 +1,10 @@
+//Query Selectors
+const selectionButtons = document.querySelectorAll('[data-selection]')
+const userScoreSpan = document.querySelector('[data-user-score]')
+const websiteScoreSpan = document.querySelector('[data-website-score]')
+const userChoiceSpan = document.querySelector('[data-user-last]')
+const websiteChoiceSpan = document.querySelector('[data-website-last]')
+
 //Objects & Constructor
 const rock = new Option('rock','✊','scissors')
 const paper = new Option('paper','✋','rock')
